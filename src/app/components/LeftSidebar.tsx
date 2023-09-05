@@ -61,11 +61,11 @@ const LeftSidebar = () => {
           Tweet
         </button>
       </div>
-      <button className="rounded-full  bg-transparent flex items-center space-x-2 p-4 text-center hover:bg-white/10 transition duration-200 w-full justify-between">
+      <button className="rounded-full  bg-transparent flex items-center space-x-2 py-4 px-4 text-center hover:bg-white/10 transition duration-200 w-full justify-between">
         <div className="flex items-center space-x-2">
           <div className="rounded-full bg-slate-400 w-12 h-12 "></div>
           <div className="text-left text-sm">
-            <div className="font-semibold ">Sanjayshanmugam</div>
+            <div className="font-semibold truncate">Sanjayshanmugam sk</div>
             <div>@Sanjaysk2108</div>
           </div>
         </div>
