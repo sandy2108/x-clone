@@ -6,7 +6,7 @@ import { BsChat, BsDot, BsThreeDots } from "react-icons/bs";
 
 const MainComponent = () => {
   return (
-    <main className="w-[48%] flex w-full  h-full flex-col border-l-[0.5px] border-r-[0.5px] ">
+    <main className="w-[50%] flex w-full  h-full flex-col border-l-[0.5px] border-r-[0.5px] ">
       <h1 className="text-2xl font-bold my-4 p-6 backdrop-blur bg-gray/10 sticky top-0">
         Home
       </h1>
