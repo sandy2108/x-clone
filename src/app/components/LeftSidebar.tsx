@@ -42,7 +42,7 @@ const NAVBARITEMS = [
 
 const LeftSidebar = () => {
   return (
-    <section className="fixed w-[275px] text-black flex flex-col h-screen items-stretch px-6">
+    <section className="sticky top-0 w-[23%] text-black flex flex-col h-screen items-stretch px-4">
       <div className="flex flex-col items-stretch h-full space-y-4 mt-4">
         {NAVBARITEMS.map((item) => (
           <Link
@@ -61,11 +61,11 @@ const LeftSidebar = () => {
           Tweet
         </button>
       </div>
-      <button className="rounded-full m-4 bg-transparent flex items-center space-x-2 p-4 text-center hover:bg-white/10 transition duration-200 w-full justify-between">
+      <button className="rounded-full  bg-transparent flex items-center space-x-2 p-4 text-center hover:bg-white/10 transition duration-200 w-full justify-between">
         <div className="flex items-center space-x-2">
           <div className="rounded-full bg-slate-400 w-12 h-12 "></div>
           <div className="text-left text-sm">
-            <div className="font-semibold ">Sanjayshanmugam sk</div>
+            <div className="font-semibold ">Sanjayshanmugam</div>
             <div>@Sanjaysk2108</div>
           </div>
         </div>
