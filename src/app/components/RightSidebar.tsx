@@ -21,7 +21,7 @@ const RightSidebar = () => {
         </div>
       </div>
       <div className="flex flex-col rounded-xl bg-slate-100 p-4 my-4 ">
-        <h3 className="font-bold text-xl my-2 px-4">What's happening</h3>
+        <h3 className="font-bold text-xl my-2 px-4">Whats happening</h3>
         <div>
           {Array.from({ length: 5 }).map((_, i) => (
             <div
